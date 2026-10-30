@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&amp;family=Bebas+Neue&amp;display=swap');
+      .logo-text {
+        font-family: 'Barlow Condensed', 'Bebas Neue', 'Arial Narrow', sans-serif;
+        font-weight: 700;
+        font-size: 150px;
+        fill: #E2C4B4;
+        letter-spacing: 2px;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+      .logo-frame {
+        fill: none;
+        stroke: #E2C4B4;
+        stroke-width: 5;
+      }
+      .logo-corner {
+        fill: none;
+        stroke: #141414;
+        stroke-width: 7;
+        stroke-linecap: square;
+      }
+    </style>
+  </defs>
+
+  <!-- Central Frame -->
+  <rect class="logo-frame" x="45" y="35" width="760" height="170" />
+
+  <!-- Text -->
+  <text class="logo-text" x="425" y="116">RAf.STUDIO</text>
+
+  <!-- 4 Black Accent Corners -->
+  <!-- Top-Left -->
+  <path class="logo-corner" d="M 37,70 L 37,27 L 80,27" />
+  <!-- Top-Right -->
+  <path class="logo-corner" d="M 770,27 L 813,27 L 813,70" />
+  <!-- Bottom-Left -->
+  <path class="logo-corner" d="M 37,170 L 37,213 L 80,213" />
+  <!-- Bottom-Right -->
+  <path class="logo-corner" d="M 770,213 L 813,213 L 813,170" />
+</svg>

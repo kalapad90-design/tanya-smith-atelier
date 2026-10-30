@@ -1165,6 +1165,34 @@ body.js-animate .reveal-on-scroll.is-revealed {
   color: var(--color-accent);
 }
 
+.footer-bottom-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  gap: 1rem;
+}
+
+.footer-badge-wrap {
+  display: inline-flex;
+  align-items: center;
+  opacity: 0.85;
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
+}
+
+.footer-badge-wrap:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.raf-studio-badge {
+  width: 105px;
+  height: auto;
+  display: block;
+}
+
 dialog.native-dialog {
   border: none;
   border-radius: var(--radius-lg);
@@ -1828,5 +1856,19 @@ input:user-invalid + .field-error-msg {
 
   .footer-nav ul {
     align-items: center;
+  }
+
+  .footer-bottom-row {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+  }
+
+  .raf-studio-badge {
+    width: 95px;
   }
 }

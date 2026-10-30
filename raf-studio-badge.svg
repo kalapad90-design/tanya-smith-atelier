@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&amp;family=Bebas+Neue&amp;display=swap');
+      .badge-bg {
+        fill: #E2C4B4;
+        stroke: #141414;
+        stroke-width: 5;
+      }
+      .badge-text {
+        font-family: 'Barlow Condensed', 'Bebas Neue', 'Arial Narrow', sans-serif;
+        font-weight: 700;
+        font-size: 150px;
+        fill: #141414;
+        letter-spacing: 2px;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+      .badge-corner {
+        fill: none;
+        stroke: #141414;
+        stroke-width: 7;
+        stroke-linecap: square;
+      }
+    </style>
+  </defs>
+
+  <!-- Filled Pastel Pink-Beige Badge -->
+  <rect class="badge-bg" x="45" y="35" width="760" height="170" rx="3" />
+
+  <!-- Text -->
+  <text class="badge-text" x="425" y="116">RAf.STUDIO</text>
+
+  <!-- 4 Black Accent Corners -->
+  <!-- Top-Left -->
+  <path class="badge-corner" d="M 37,70 L 37,27 L 80,27" />
+  <!-- Top-Right -->
+  <path class="badge-corner" d="M 770,27 L 813,27 L 813,70" />
+  <!-- Bottom-Left -->
+  <path class="badge-corner" d="M 37,170 L 37,213 L 80,213" />
+  <!-- Bottom-Right -->
+  <path class="badge-corner" d="M 770,213 L 813,213 L 813,170" />
+</svg>
