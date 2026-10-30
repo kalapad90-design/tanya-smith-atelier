@@ -407,23 +407,17 @@
 
     <section class="section portfolio-section" id="portfolio">
       <div class="container">
-        <div class="portfolio-header-wrap reveal-on-scroll">
-          <div class="portfolio-title-col">
-            <div class="section-tag">Галерея</div>
-            <h2 class="section-title">Портфолио работ</h2>
-          </div>
-
-          <div class="slider-controls" aria-label="Управление просмотром работ">
-            <button type="button" class="slider-arrow" id="portPrevBtn" aria-label="Предыдущее фото">
-              <i class="ph ph-arrow-left"></i>
-            </button>
-            <button type="button" class="slider-arrow" id="portNextBtn" aria-label="Следующее фото">
-              <i class="ph ph-arrow-right"></i>
-            </button>
-          </div>
+        <div class="section-header text-center reveal-on-scroll">
+          <div class="section-tag">Галерея</div>
+          <h2 class="section-title">Портфолио работ</h2>
         </div>
 
-        <div class="portfolio-slider-track" id="portfolioTrack">
+        <div class="portfolio-slider-wrapper reveal-on-scroll">
+          <button type="button" class="slider-arrow arrow-left" id="portPrevBtn" aria-label="Предыдущее фото">
+            <i class="ph ph-arrow-left"></i>
+          </button>
+
+          <div class="portfolio-slider-track" id="portfolioTrack">
           
           <div class="port-slide">
             <div class="image-placeholder aspect-portfolio-item">
@@ -486,7 +480,12 @@
           </div>
         </div>
 
-        <div class="portfolio-vk-link text-center reveal-on-scroll">
+        <button type="button" class="slider-arrow arrow-right" id="portNextBtn" aria-label="Следующее фото">
+          <i class="ph ph-arrow-right"></i>
+        </button>
+      </div>
+
+      <div class="portfolio-vk-link text-center reveal-on-scroll">
           <a href="https://vk.com/tanya_smith_atelier" target="_blank" rel="noopener" class="btn btn-outline-dark btn-more-compact">
             <span>Смотреть больше</span>
             <i class="ph ph-arrow-right"></i>
