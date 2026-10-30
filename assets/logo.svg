@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <circle cx="100" cy="100" r="100" fill="#141416"/>
+  <text x="100" y="106" 
+        fill="#FFFFFF" 
+        font-family="'Montserrat', system-ui, -apple-system, sans-serif" 
+        font-size="19" 
+        font-weight="700" 
+        letter-spacing="0.14em" 
+        text-anchor="middle" 
+        alignment-baseline="middle">TANYA SMITH</text>
+</svg>
