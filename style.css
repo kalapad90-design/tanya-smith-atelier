@@ -1178,6 +1178,7 @@ body.js-animate .reveal-on-scroll.is-revealed {
 .footer-badge-wrap {
   display: inline-flex;
   align-items: center;
+  gap: 0.65rem;
   opacity: 0.85;
   transition: opacity var(--transition-fast), transform var(--transition-fast);
 }
@@ -1185,6 +1186,13 @@ body.js-animate .reveal-on-scroll.is-revealed {
 .footer-badge-wrap:hover {
   opacity: 1;
   transform: translateY(-2px);
+}
+
+.dev-by-text {
+  font-size: 0.75rem;
+  color: #A1A1AA;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
 }
 
 .raf-studio-badge {
